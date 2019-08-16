@@ -25,16 +25,16 @@ require 'about_iteration' # Done
 require 'about_blocks' # Done. TODO: Understand this better...
 require 'about_sandwich_code' # Done
 require 'about_scoring_project' # Done
-require 'about_classes'
-require 'about_open_classes'
-require 'about_dice_project'
-require 'about_inheritance'
-require 'about_modules'
-require 'about_scope'
-require 'about_class_methods'
-require 'about_message_passing'
-require 'about_proxy_object_project'
-require 'about_to_str'
+require 'about_classes' # DONE
+require 'about_open_classes' # DONE
+require 'about_dice_project' # DONE
+require 'about_inheritance' # DONE
+require 'about_modules' # DONE
+require 'about_scope' # DONE
+require 'about_class_methods' # DONE
+require 'about_message_passing' # DONE
+require 'about_proxy_object_project' # Done
+require 'about_to_str' # Done
 in_ruby_version("jruby") do
   require 'about_java_interop'
 end

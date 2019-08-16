@@ -18,8 +18,6 @@ def triangle(a, b, c)
   a, b, c = [a, b, c].sort
   uniq = [a, b, c].uniq
 
-  puts uniq.any? { |x| x <= 0 }
-
   # No zero values
   if uniq.any? { |x| x <= 0 }
     raise TriangleError, "Triangles must have positive side lenghts"
